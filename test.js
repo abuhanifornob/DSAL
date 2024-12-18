@@ -9,7 +9,7 @@ function factorialNumber(n){
 }
 
 const factorial=factorialNumber(5);
-console.log(factorial);
+
 
 function fibonacci(n){
     let fib=[0,1];
