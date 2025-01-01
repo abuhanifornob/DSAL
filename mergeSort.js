@@ -45,3 +45,8 @@ function merge(left, right) {
     return result;
 }
 
+// Example Usage
+const array = [38, 27, 43, 3, 9, 82, 10];
+console.log("Original Array:", array);
+console.log("Sorted Array:", mergeSort(array));
+// Output: [3, 9, 10, 27, 38, 43, 82]
