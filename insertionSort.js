@@ -14,3 +14,8 @@ function insertionSort(arr) {
     }
     return arr;
 }
+// Example Usage
+const array = [38, 27, 43, 3, 9, 82, 10];
+console.log("Original Array:", array);
+console.log("Sorted Array:", insertionSort(array));
+// Output: [3, 9, 10, 27, 38, 43, 82]
